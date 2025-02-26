@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import RepetitionExercise from "./components/RepetitionExercise";
 import DurationExercise from "./components/DurationExercise";
+import RunningExercise from "./components/RunningExercise";
 
 const exercises = [
   { name: "Push-ups", type: "repetition" },
   { name: "Squats", type: "repetition" },
   { name: "Jump Rope", type: "duration" },
-  { name: "Running", type: "duration" },
+  { name: "Running", type: "running" },
 ];
 
 function App() {
@@ -19,9 +20,12 @@ function App() {
           <h2>{selectedExercise.name}</h2>
           {selectedExercise.type === "repetition" ? (
             <RepetitionExercise name={selectedExercise.name} />
-          ) : (
+          ) : selectedExercise.type === "duration" ? (
             <DurationExercise name={selectedExercise.name} />
+          ) : (
+            <RunningExercise name={selectedExercise.name} />
           )}
+
           <button onClick={() => setSelectedExercise(null)}>Back to Menu</button>
         </div>
       ) : (
@@ -43,4 +47,3 @@ function App() {
 }
 
 export default App;
-
