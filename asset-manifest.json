@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/barbaralopzz/exercise-tracker-2.git/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/barbaralopzz/exercise-tracker-2.git/static/js/main.ddc0e6f1.chunk.js",
+    "main.js.map": "/barbaralopzz/exercise-tracker-2.git/static/js/main.ddc0e6f1.chunk.js.map",
+    "runtime-main.js": "/barbaralopzz/exercise-tracker-2.git/static/js/runtime-main.7d26c322.js",
+    "runtime-main.js.map": "/barbaralopzz/exercise-tracker-2.git/static/js/runtime-main.7d26c322.js.map",
+    "static/js/2.19901ea3.chunk.js": "/barbaralopzz/exercise-tracker-2.git/static/js/2.19901ea3.chunk.js",
+    "static/js/2.19901ea3.chunk.js.map": "/barbaralopzz/exercise-tracker-2.git/static/js/2.19901ea3.chunk.js.map",
+    "static/js/3.a6519409.chunk.js": "/barbaralopzz/exercise-tracker-2.git/static/js/3.a6519409.chunk.js",
+    "static/js/3.a6519409.chunk.js.map": "/barbaralopzz/exercise-tracker-2.git/static/js/3.a6519409.chunk.js.map",
+    "index.html": "/barbaralopzz/exercise-tracker-2.git/index.html",
+    "precache-manifest.9688b5c3896d8720b1bbf098fb429984.js": "/barbaralopzz/exercise-tracker-2.git/precache-manifest.9688b5c3896d8720b1bbf098fb429984.js",
+    "service-worker.js": "/barbaralopzz/exercise-tracker-2.git/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/barbaralopzz/exercise-tracker-2.git/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.19901ea3.chunk.js.LICENSE.txt": "/barbaralopzz/exercise-tracker-2.git/static/js/2.19901ea3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d26c322.js",
+    "static/js/2.19901ea3.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.ddc0e6f1.chunk.js"
+  ]
+}
